@@ -1,0 +1,111 @@
+[0m17:52:11.006918 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1093cdc70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109af0680>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109af0590>]}
+
+
+============================== 17:52:11.067568 | 6ac0f4a2-e950-4681-91ca-a6a80d635eec ==============================
+[0m17:52:11.067568 [info ] [MainThread]: Running with dbt=1.9.4
+[0m17:52:11.068652 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/powerbispecialist/.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt init', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m17:53:26.726850 [debug] [MainThread]: Starter project path: /Users/powerbispecialist/Documents/Airbnb Snowflake/.venv/lib/python3.12/site-packages/dbt/include/starter_project
+[0m17:53:26.745693 [info ] [MainThread]: 
+Your new dbt project "azure_dbt_snowflake_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m17:53:26.746443 [info ] [MainThread]: Setting up your profile.
+[0m17:58:20.662953 [info ] [MainThread]: Profile azure_dbt_snowflake_project written to /Users/powerbispecialist/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m17:58:20.667104 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 369.8105, "process_in_blocks": "0", "process_kernel_time": 1.276139, "process_mem_max_rss": "131903488", "process_out_blocks": "0", "process_user_time": 4.804301}
+[0m17:58:20.677320 [debug] [MainThread]: Command `dbt init` succeeded at 17:58:20.676456 after 369.82 seconds
+[0m17:58:20.678886 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a2cbe60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a744800>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a088440>]}
+[0m17:58:20.679885 [debug] [MainThread]: Flushing usage events
+[0m17:58:22.703276 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:27:47.563317 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1138137a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11361f3b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113cd3380>]}
+
+
+============================== 18:27:47.570601 | b4bc3b3c-dc90-42b1-a40f-8ab309f8375b ==============================
+[0m18:27:47.570601 [info ] [MainThread]: Running with dbt=1.9.4
+[0m18:27:47.571619 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/powerbispecialist/.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug --profiles-dir /Users/powerbispecialist/.dbt --profile azure_dbt_snowflake_project', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m18:27:47.618304 [info ] [MainThread]: dbt version: 1.9.4
+[0m18:27:47.618900 [info ] [MainThread]: python version: 3.12.12
+[0m18:27:47.619547 [info ] [MainThread]: python path: /Users/powerbispecialist/Documents/Airbnb Snowflake/.venv/bin/python3
+[0m18:27:47.621185 [info ] [MainThread]: os info: macOS-13.7.8-x86_64-i386-64bit
+[0m18:27:48.311265 [info ] [MainThread]: Using profiles dir at /Users/powerbispecialist/.dbt
+[0m18:27:48.311891 [info ] [MainThread]: Using profiles.yml file at /Users/powerbispecialist/.dbt/profiles.yml
+[0m18:27:48.312398 [info ] [MainThread]: Using dbt_project.yml file at /Users/powerbispecialist/Documents/Airbnb Snowflake/dbt_project.yml
+[0m18:27:48.314509 [info ] [MainThread]: adapter type: snowflake
+[0m18:27:48.315088 [info ] [MainThread]: adapter version: 1.9.4
+[0m18:27:48.315526 [info ] [MainThread]: Configuration:
+[0m18:27:48.316259 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m18:27:48.326914 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m18:27:48.328084 [info ] [MainThread]: Required dependencies:
+[0m18:27:48.328984 [debug] [MainThread]: Executing "git --help"
+[0m18:27:48.393127 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m18:27:48.394687 [debug] [MainThread]: STDERR: "b''"
+[0m18:27:48.395509 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m18:27:48.396410 [info ] [MainThread]: Connection:
+[0m18:27:48.397048 [info ] [MainThread]:   account: lfllbtj-zya97631
+[0m18:27:48.397692 [info ] [MainThread]:   user: sindisiwe
+[0m18:27:48.398187 [info ] [MainThread]:   database: AIRBNB
+[0m18:27:48.398674 [info ] [MainThread]:   warehouse: COMPUTE_WH
+[0m18:27:48.399162 [info ] [MainThread]:   role: ACCOUNTADMIN
+[0m18:27:48.399630 [info ] [MainThread]:   schema: dbt_schema
+[0m18:27:48.400107 [info ] [MainThread]:   authenticator: None
+[0m18:27:48.400575 [info ] [MainThread]:   oauth_client_id: None
+[0m18:27:48.401877 [info ] [MainThread]:   query_tag: None
+[0m18:27:48.409128 [info ] [MainThread]:   client_session_keep_alive: False
+[0m18:27:48.410365 [info ] [MainThread]:   host: None
+[0m18:27:48.410845 [info ] [MainThread]:   port: None
+[0m18:27:48.411274 [info ] [MainThread]:   proxy_host: None
+[0m18:27:48.411663 [info ] [MainThread]:   proxy_port: None
+[0m18:27:48.412047 [info ] [MainThread]:   protocol: None
+[0m18:27:48.412990 [info ] [MainThread]:   connect_retries: 1
+[0m18:27:48.414140 [info ] [MainThread]:   connect_timeout: None
+[0m18:27:48.414971 [info ] [MainThread]:   retry_on_database_errors: False
+[0m18:27:48.415614 [info ] [MainThread]:   retry_all: False
+[0m18:27:48.416237 [info ] [MainThread]:   insecure_mode: False
+[0m18:27:48.416765 [info ] [MainThread]:   reuse_connections: True
+[0m18:27:48.421412 [info ] [MainThread]: Registered adapter: snowflake=1.9.4
+[0m18:27:48.652118 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m18:27:48.762163 [debug] [MainThread]: Using snowflake connection "debug"
+[0m18:27:48.762691 [debug] [MainThread]: On debug: select 1 as id
+[0m18:27:48.763104 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m18:27:53.955768 [debug] [MainThread]: SQL status: SUCCESS 1 in 5.193 seconds
+[0m18:27:53.957659 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m18:27:53.958370 [info ] [MainThread]: [31m1 check failed:[0m
+[0m18:27:53.958952 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </Users/powerbispecialist/Documents/Airbnb Snowflake/dbt_project.yml> not found
+
+[0m18:27:53.959973 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 6.487023, "process_in_blocks": "0", "process_kernel_time": 0.786085, "process_mem_max_rss": "132845568", "process_out_blocks": "0", "process_user_time": 2.837094}
+[0m18:27:53.960802 [debug] [MainThread]: Command `dbt debug` failed at 18:27:53.960617 after 6.49 seconds
+[0m18:27:53.961402 [debug] [MainThread]: Connection 'debug' was left open.
+[0m18:27:53.961931 [debug] [MainThread]: On debug: Close
+[0m18:27:54.779253 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x114da9430>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11470a9c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1146c8890>]}
+[0m18:27:54.780125 [debug] [MainThread]: Flushing usage events
+[0m18:27:56.616886 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:19:11.732623 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112a0c500>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112364b30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112364b00>]}
+
+
+============================== 10:19:11.738989 | c05ccac2-27ee-4a3f-8fe3-2c71e5fbf208 ==============================
+[0m10:19:11.738989 [info ] [MainThread]: Running with dbt=1.9.4
+[0m10:19:11.740043 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': '/Users/powerbispecialist/.dbt', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt run', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m10:19:11.740704 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /Users/powerbispecialist/Documents/Airbnb Snowflake/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m10:19:11.741570 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.09280437, "process_in_blocks": "0", "process_kernel_time": 0.318585, "process_mem_max_rss": "91181056", "process_out_blocks": "0", "process_user_time": 1.763353}
+[0m10:19:11.742213 [debug] [MainThread]: Command `dbt run` failed at 10:19:11.742077 after 0.09 seconds
+[0m10:19:11.742703 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11193c3e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112702180>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112e976b0>]}
+[0m10:19:11.743786 [debug] [MainThread]: Flushing usage events
+[0m10:19:13.594305 [debug] [MainThread]: An error was encountered while trying to flush usage events
