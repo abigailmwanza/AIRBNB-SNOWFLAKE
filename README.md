@@ -130,6 +130,7 @@ Azure_DBT_Snowflake/
 ### Data Modelling:
 
 The final Gold models were connected to Power BI to create interactive dashboards showing:
+![](https://github.com/abigailmwanza/AIRBNB-SNOWFLAKE/blob/main/pictures/Airbnb%20power%20bi.png)
 
 - Pricing trends by month
 - Listing distribution by property type
@@ -158,4 +159,5 @@ This project mirrors real-world enterprise analytics workflows and demonstrates 
 - Build scalable data pipelines
 - Maintain data quality and history
 - Translate raw data into business insights
+
 
