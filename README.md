@@ -20,6 +20,8 @@ The goal was to:
 
 The project follows the Medallion Architecture using Azure + Snowflake + dbt Core:
 
+![](https://github.com/abigailmwanza/AIRBNB-SNOWFLAKE/blob/main/pictures/design%20dbt.png)
+
 ### Azure
 - Used as the cloud platform for data storage and orchestration
 
@@ -156,3 +158,4 @@ This project mirrors real-world enterprise analytics workflows and demonstrates 
 - Build scalable data pipelines
 - Maintain data quality and history
 - Translate raw data into business insights
+
