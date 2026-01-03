@@ -91,45 +91,15 @@ Why this matters:
 - Supports trend analysis and auditing
 - Critical for enterprise-grade analytics
 
-# 📁 Project Structure
-Azure_DBT_Snowflake/
-├── README.md
-├── pyproject.toml
-├── main.py
-│
-├── SourceData/
-│   ├── bookings.csv
-│   ├── hosts.csv
-│   └── listings.csv
-│
-├── DDL/
-│   ├── ddl.sql
-│   └── resources.sql
-│
-└── azure_dbt_snowflake_project/
-    ├── dbt_project.yml
-    ├── ExampleProfiles.yml
-    │
-    ├── models/
-    │   ├── sources/
-    │   │   └── sources.yml
-    │   ├── bronze/
-    │   ├── silver/
-    │   └── gold/
-    │       ├── fact.sql
-    │       ├── obt.sql
-    │       └── ephemeral/
-    │
-    ├── macros/
-    ├── analyses/
-    ├── snapshots/
-    ├── tests/
-    └── seeds/
-
 # 📊 Data Visualization (Power BI)
+
 ### Data Modelling:
 
+![](https://github.com/abigailmwanza/AIRBNB-SNOWFLAKE/blob/main/pictures/Airbnb%20model.png)
+
 The final Gold models were connected to Power BI to create interactive dashboards showing:
+
+
 ![](https://github.com/abigailmwanza/AIRBNB-SNOWFLAKE/blob/main/pictures/Airbnb%20power%20bi.png)
 
 - Pricing trends by month
@@ -159,5 +129,6 @@ This project mirrors real-world enterprise analytics workflows and demonstrates 
 - Build scalable data pipelines
 - Maintain data quality and history
 - Translate raw data into business insights
+
 
 
